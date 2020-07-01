@@ -1,0 +1,63 @@
+{
+  "_from": "mfrc522-rpi",
+  "_id": "mfrc522-rpi@2.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-IKvcmZbNdTjkdW+I2QXyh3g5KScVTfdVU5tNyUlCjh6I7yk4xd5S7gYsP+ch9we4d/2AkLvPL6GPoNr+ZskVaw==",
+  "_location": "/mfrc522-rpi",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mfrc522-rpi",
+    "name": "mfrc522-rpi",
+    "escapedName": "mfrc522-rpi",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mfrc522-rpi/-/mfrc522-rpi-2.1.2.tgz",
+  "_shasum": "48c544f19322c507b23d77ec04b5515a7933555b",
+  "_spec": "mfrc522-rpi",
+  "_where": "/mnt/c/linux/modules",
+  "author": {
+    "name": "Tristan Teufel"
+  },
+  "bugs": {
+    "url": "https://github.com/firsttris/mfrc522-rpi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "rpi-softspi": "^1.0.5",
+    "rpio": "^1.7.1"
+  },
+  "deprecated": false,
+  "description": "small JavaScript interface to control RFID reader MFRC522 with Raspberry-pi",
+  "homepage": "https://github.com/firsttris/mfrc522-rpi#readme",
+  "keywords": [
+    "mfrc522",
+    "rfid",
+    "nfc",
+    "rpi",
+    "internet-of-things",
+    "iot",
+    "javascript",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "mfrc522-rpi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firsttris/mfrc522-rpi.git"
+  },
+  "scripts": {
+    "dump": "node test/dumpCard.js",
+    "read": "node test/read.js",
+    "write": "node test/write.js"
+  },
+  "version": "2.1.2"
+}

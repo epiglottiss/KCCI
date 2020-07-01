@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>주문확인</title>
+    <style>
+      .container {
+        width:600px;
+        margin:0 auto;
+      }
+      ul{
+        list-style-type:none;
+      }
+      label.title{
+        font-weight:bold;
+        width:80px;
+        float:left;
+      }
+      div.centered{
+        text-align: center;
+      }
+      fieldset{
+        margin: 15px 10px;
+      }
+      fieldset legend{
+        font-weight:bold;
+        font-size:18px;
+        color:purple;
+      }
+      ul li{
+        margin-botton:10px;
+      }
+    </style>
+  </head>
+  <body>
+	<!--메인배너-->
+		<div style="width:100%; height: 200px; text-align:center; display:inline">
+            <img src="./main.jpg" style="width:100%; height:200px">
+		</div>
+<!--목차-->
+		<div style="width:250px; height:1300px; float:left; font-size:17px">
+			<ul>
+				<li><a href="main.html">첫화면으로</a></li>
+				<li><a href="menu.html">상품소개</a></li>
+				<li><a href="info.html">배송안내</a></li>
+				<li><a href="order.html">상품주문</a></li>
+				<li><span style="color:blue; font-weight:600">주문확인</span></li>
+			</ul>
+		</div>
+
+
+      
+      
+      
+      
+           <div class="container">
+    <h1>주문확인</h1>
+      <fieldset>
+        <legend>개인 정보</legend>
+        
+         <form action = "/showOrderCheck.ejs" method = "POST">
+         <ul>
+          <li>
+            <label class="title" for="uname" >이름</label>
+            <input type="text" id="uname" name="name" placeholder="여백없이 입력" autofocus required><br>
+          </li>
+          <li>
+            <label class="title" for="uphone" >연락처</label>
+            <input type="text" id="uphone" name="phone" placeholder="연락가능한 번호" required><br>
+          </li>
+
+          </ul>
+      <hr>
+    
+        <div class="centered">
+        <input type="submit" value="확인">
+        <input type="reset" value="다시 작성">
+        </div>
+         </form>
+     </fieldset>
+          
+      </div>
+  
