@@ -19,7 +19,7 @@
 # Point of Interst
 ### 웹에서 입력된 정보를 DB에 저장
 * HTML페이지에서 post방식으로 정보를 입력/전송한다.    
-![input](./documents/input.png)  
+![input](./documents/input.PNG)  
 * 주문 정보를 새 페이지(orderCompleted.ejs)에 변수를 전달해서 보여주고, DB에 저장한다.    
 ![show](./documents/showOrder.png)    
 ### DB에 생산할 주문이 있는지 주기적으로 검사
